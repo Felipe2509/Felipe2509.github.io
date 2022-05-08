@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 60px;
+}
+
+nav ul {
+    background-color: #89abeb;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+    background-color: #89abeb;
+}
+
+
+nav a {
+    background-color: #89abeb;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    width: 150px;
+}
+
+nav li a:hover {
+    background: #759eeb;
+    color: #000000;
+    border-radius: .5em;
+}
+
+table {
+    background-color: rgb(240, 240, 240);
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+th, td {
+    padding: 20px   ;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+thead {
+    background-color: #89abeb;
+    color: white;
+}
+
+.contenidoPri {
+    color: black;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#piePrin{
+    background-color: #89abeb;
+    color: #ffffff;
+    padding: .5em;
+    text-align: center;
+    margin-top: auto;
+}
+
+#sobreMi li{
+    padding-top: .5em;
+}
+
+#presenPer {
+    padding-bottom: .5em;
+    font-size: 23px;
+}
+
+#formulario form{
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario form input, textarea, button{
+    padding: 15px;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+}
+
+#formulario form button{
+    background-color: #89abeb;
+    width: 70px;
+    align-self: flex-end;
+}
+
+#tableEstudios {
+    margin: auto;
+    width: 1000px;
+}
+
+#sectionPasatiempo {
+    display: flex;
+    flex-direction: column;
+}
+
+#pasatiempo {
+    display: flex;
+    flex-direction: row;
+}
